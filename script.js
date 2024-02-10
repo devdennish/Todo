@@ -78,7 +78,7 @@ const removeList = (e) => {
 };
 
 const removeItem = (item) => {
-  if (confirm('Are you sure')) {
+  if (confirm('Are you sure?')) {
     //remove item from DOM//
     item.remove();
     //remove item from local storage//
