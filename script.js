@@ -93,7 +93,7 @@ const removeItemFromStorage = (item) => {
     return i != item;
   });
   localStorage.setItem('items', JSON.stringify(storageItem));
-  console.log(storageItem);
+
 };
 
 //Event Listener//
